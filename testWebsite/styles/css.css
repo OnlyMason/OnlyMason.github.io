@@ -1,0 +1,13 @@
+#skills {
+	background-color: #e6e6e6;
+	padding: 1em;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
