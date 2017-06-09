@@ -26,7 +26,7 @@ function switchToAbout() {
 }
 
 function switchToProjects() {
-	var string = "<b>Frog Wars<br></b><img src=\"images/frogwars2.png\"><br><b>EcoCar Project</b><br><img src=\"images/ecocar.png\"><br><b>Tab Wranger</b><br><img src=\"images/tabwrangler.png\">";
+	var string = "<b>Frog Wars</b> (I do not take credit for art assets)<br><img src=\"images/frogwars2.png\"><br><b>EcoCar Project</b><br><img src=\"images/ecocar.png\"><br><b>Tab Wranger</b><br><img src=\"images/tabwrangler.png\">";
 	
 	$(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
