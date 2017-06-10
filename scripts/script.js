@@ -2,7 +2,8 @@ function switchToContact() {
 	
 	var string = "<a href=\"mailto:mason.nguyen90@gmail.com\">E-mail</a><br>" +
 				 "<a href=\"https://www.linkedin.com/in/mason-nguyen-ab8bb2113/\">LinkedIn</a><br>" +
-				 "<a href=\"https://github.com/onlymason\">GitHub</a>";
+				 "<a href=\"https://github.com/onlymason\">GitHub</a><br>" + 
+				 "Latest revision of resume available on contact!";
 				 
 	$(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
@@ -26,7 +27,7 @@ function switchToAbout() {
 }
 
 function switchToProjects() {
-	var string = "<b>Frog Wars</b> (I do not take credit for art assets)<br><img src=\"images/frogwars2.png\"><br><b>EcoCar Project</b><br><img src=\"images/ecocar.png\"><br><b>Tab Wranger</b><br><img src=\"images/tabwrangler.png\">";
+	var string = "<b>Frog Wars</b> (I do not take credit for art assets)<br><img src=\"images/frogwars2.png\"><br><b>EcoCar Project</b><br><img src=\"images/ecocar.png\"><br><b>Tab Wrangler</b><br><img src=\"images/tabwrangler.png\">";
 	
 	$(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
