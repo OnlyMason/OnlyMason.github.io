@@ -3,7 +3,7 @@ function switchToContact() {
 	var string = "<a href=\"mailto:mason.nguyen90@gmail.com\">E-mail</a><br>" +
 				 "<a href=\"https://www.linkedin.com/in/mason-nguyen-ab8bb2113/\">LinkedIn</a><br>" +
 				 "<a href=\"https://github.com/onlymason\">GitHub</a><br>" + 
-				 "Latest revision of resume available on contact!";
+				 "<p>Latest revision of resume available on contact!<p>";
 				 
 	$(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
