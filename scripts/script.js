@@ -27,7 +27,7 @@ function switchToAbout() {
 }
 
 function switchToProjects() {
-	var string = "<b>Frog Wars</b> (I do not take credit for art assets)<br><img src=\"images/frogwars2.png\"><br><b>EcoCar Project</b><br><img src=\"images/ecocar.png\"><br><b>Tab Wrangler</b><br><img src=\"images/tabwrangler.png\">";
+	var string = "<b>Frog Wars</b> (I do not take credit for art assets)<br><img src=\"images/frogwars2.png\"><br><b>EcoCar Project</b><br><img src=\"images/ecocar.png\"><br><b>Tab Wrangler</b> <a href=\"https://addons.mozilla.org/en-US/firefox/addon/tab_wrangler/\">Download</a> <br><img src=\"images/tabwrangler.png\">";
 	
 	$(document).ready(function() {
 		$("#content").fadeOut("fast", function() {
